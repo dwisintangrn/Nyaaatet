@@ -26,8 +26,8 @@ body {
 }
 
 .inner.container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    column-gap: 10px;
     background-color: #ffffff;
     color: black;
     height: 45%;
