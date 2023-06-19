@@ -39,6 +39,16 @@
     justify-content: center;
 }
 
+.image{
+    position: absolute;
+}
+
+#image1{
+    top: 9vh;
+    left: 15vw;
+    width: 200px;
+}
+
 .btn{
     background-color: #ECD9CB;
     border-radius: 20px;
