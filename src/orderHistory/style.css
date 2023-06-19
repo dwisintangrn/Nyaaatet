@@ -23,6 +23,7 @@ body{
 }
 .container .box{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -39,6 +40,8 @@ body{
 }
 .container .boxes{
     background-color: transparent;
+    display: flex;
+    flex-direction: row;
 }
 h1{
     align-self: center;
