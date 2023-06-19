@@ -33,3 +33,13 @@ body {
     height: 45%;
     width: 50%;
 }
+
+.row{
+    display: grid;
+    column-gap: 10px;
+    background-color: #ffffff;
+    height: 30%;
+    width: 30%;
+    margin: 20px 20px;
+    float: left;
+}
