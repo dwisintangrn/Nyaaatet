@@ -68,3 +68,10 @@ h1{
     color: #000;
     top: 0;
 }
+i{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 2rem;
+    color: #ffffff;
+}
