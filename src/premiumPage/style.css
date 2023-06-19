@@ -15,43 +15,46 @@ body {
     transform: translate(-50%, -50%);
     padding: 20px;
     background-color: #AB8970;
-    height: 90%;
+    height: 85%;
     width: 100%;
 }
 
-.inner.container {
-    display: flex;
-    justify-content: center;
-    background-color: #ffffff;
+.content {
+    padding: 40px;
+    text-align: center;
     color: black;
-    height: 45%;
-    width: 50%;
 }
 
-.content {
+.content h2 {
+    margin-bottom: 20px;
+} 
+
+.plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.plan {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
-.overlay-image {
-    position: absolute;
-    top: -76px;
-    left: -70px;
-    right: -10px;
-    bottom: -10px;
-    width: 50%;
-    height: 50%;
-    object-fit: contain;
-}
-
-h3 {
-    font-weight: 900;
-    font-style: normal;
+.plan:hover {
+    transform: translateY(-5px);
 }
 
 .btn {
@@ -65,4 +68,16 @@ h3 {
 .btn:hover {
     background-color: #ECD9CB;
     border-radius: 20px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
 }
