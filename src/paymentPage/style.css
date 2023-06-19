@@ -17,9 +17,6 @@ body {
     background-color: #AB8970;
     height: 80%;
     width: 100%;
-}
-
-.container h2{
     color: black;
     font-family: 'Poppins-Bold';
     text-align: center;
@@ -30,16 +27,7 @@ body {
     column-gap: 10px;
     background-color: #ffffff;
     color: black;
-    height: 45%;
-    width: 50%;
-}
-
-.row{
-    display: grid;
-    column-gap: 10px;
-    background-color: #ffffff;
     height: 30%;
     width: 30%;
     margin: 20px 20px;
-    float: left;
 }
