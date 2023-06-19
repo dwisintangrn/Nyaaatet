@@ -38,6 +38,17 @@ body {
     text-align: center;
 }
 
+.overlay-image {
+    position: absolute;
+    top: -76px;
+    left: -70px;
+    right: -10px;
+    bottom: -10px;
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
 h3 {
     font-weight: 900;
     font-style: normal;
