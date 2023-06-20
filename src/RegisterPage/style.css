@@ -5,9 +5,37 @@
 }
 
 .container{
-    margin-top: 70px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #AB8970;
+    height: 90%;
+    width: 100%;
 }
 
 .card-header{
     text-align: center;
+    background: #E3DED8;
+}
+
+.card-body{
+    background: #E3DED8;
+    padding: 50px;
+}
+
+form{
+    padding: 20px;
+}
+
+.btn {
+    background-color: #ECD9CB;
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 7px 80px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
