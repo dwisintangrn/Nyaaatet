@@ -16,14 +16,12 @@
 
 .container{
     display: flex;
-    position: absolute;
     justify-content: center;
     align-items: center;
+    position: absolute;  
     top: 60%;
     left: 35%;
     transform: translate(-50%, -50%);
-    padding: 20px;
-    
     height: 90%;
     width: 100%;
 }
@@ -35,7 +33,7 @@
 .content{
     display: flex;
     flex-direction: column;
-    align-items: centerleft;
+    align-items: center;
     justify-content: center;
 }
 
