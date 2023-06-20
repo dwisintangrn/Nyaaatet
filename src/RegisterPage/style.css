@@ -5,7 +5,7 @@
 }
 
 .container{
-    display: flex;
+    /* display: flex; */
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -25,12 +25,8 @@
 
 .card-body{
     background: #E3DED8;
-    padding: 50px;
 }
 
-form{
-    padding: 20px;
-}
 
 .btn {
     background-color: #ECD9CB;
