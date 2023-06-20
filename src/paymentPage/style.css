@@ -27,7 +27,16 @@ body {
 
 .content h2 {
     margin-bottom: 20px;
-} 
+    font-weight: 700;
+}
+
+.content h3{
+  font-weight: 700;
+}
+
+.content .plan p{
+  font-weight: 600;
+}
 
 .plans {
     display: flex;
