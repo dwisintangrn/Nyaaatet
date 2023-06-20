@@ -34,6 +34,14 @@ body {
   font-weight: 700;
 }
 
+.content i{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
 .content .plan p{
   font-weight: 600;
 }
