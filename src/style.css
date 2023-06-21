@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+h5{
+    text-align: center;
+}
+
+.modal-dialog{
+    height: 50%;
+    text-align: center;
+}
