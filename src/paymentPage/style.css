@@ -59,7 +59,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 250px;
-    height: 200px;
+    height: 300px;
     margin: 20px;
     margin-top: 15px;
     padding: 20px;
@@ -83,7 +83,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 70px;
+    margin-left: 350px;
 }
 
 .sub2{
@@ -91,7 +91,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 70px;
+    margin-right: 385px;
 }
 
 .change {
@@ -102,8 +102,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 350px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
     margin: 20px;
     margin-top: 15px;
     padding: 40px;
