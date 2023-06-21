@@ -35,11 +35,17 @@
 }
 
 .form-group input.form-control{
-    border: none;
+    /* border: none; */
     box-shadow: none;
     background: #E2DDD7;
 }
 
+.with-line {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+}
 
 .btn {
     background-color: #ECD9CB;
