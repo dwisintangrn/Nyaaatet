@@ -70,6 +70,10 @@ body {
     border-radius: 20px;
 }
 
+.change {
+  font-size: 12px;
+}
+
 .payment-method {
     display: flex;
     flex-direction: column;
@@ -93,40 +97,40 @@ body {
     cursor: pointer;
   }
   
-  .checkbox-container input {
+.checkbox-container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-  }
+}
   
-  .checkmark {
+.checkmark {
     position: absolute;
     top: 0;
     left: 0;
     width: 20px;
     height: 20px;
     border: 2px solid #000;
-  }
+}
   
-  .checkbox-container:hover .checkmark {
+.checkbox-container:hover .checkmark {
     background-color: #ccc;
-  }
+}
   
-  .checkbox-container input:checked ~ .checkmark {
+.checkbox-container input:checked ~ .checkmark {
     background-color: #000;
-  }
+}
   
-  .checkmark:after {
+.checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
+}
   
-  .checkbox-container input:checked ~ .checkmark:after {
+.checkbox-container input:checked ~ .checkmark:after {
     display: block;
-  }
+}
   
-  .checkbox-container .checkmark:after {
+.checkbox-container .checkmark:after {
     left: 6px;
     top: 2px;
     width: 5px;
@@ -134,8 +138,8 @@ body {
     border: solid #fff;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
-  }
+}
   
-  .payment-label {
+.payment-label {
     margin-left: -65px;
-  }
+}
