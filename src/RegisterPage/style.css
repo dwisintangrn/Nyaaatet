@@ -24,11 +24,8 @@
     width: 50%;
     justify-content: end;
     padding-top: 50px;
-    border-radius: 20px;
-}
-
-.form-container{
-    position: relative;
+    border-radius: 18px;
+    margin-left: 285px;
 }
 
 .form-container h3{
