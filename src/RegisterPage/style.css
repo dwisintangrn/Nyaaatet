@@ -34,6 +34,12 @@
     padding-top: 30px;
 }
 
+.form-group input.form-control{
+    border: none;
+    box-shadow: none;
+    background: #E2DDD7;
+}
+
 
 .btn {
     background-color: #ECD9CB;
