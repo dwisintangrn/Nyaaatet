@@ -95,7 +95,7 @@ body {
 .card {
     background-color: #E1B5CA;
     border: 1px solid #ddd;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 10px;
     margin: 10px;
     width: 300px;
@@ -118,8 +118,9 @@ body {
 }
 
 .card-header {
-    height: 150px;
+    height: 100px;
     overflow: hidden;
+    border-radius: 20px 20px 0 0;
 }
 
 .card-header img {
