@@ -18,6 +18,14 @@
     width: 100%;
 }
 
+.content h4{
+    /* text-align: center; */
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
 .container-1{
     background: #F7DED8;
     height: 100%;
