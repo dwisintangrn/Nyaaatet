@@ -59,7 +59,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 250px;
-    height: 300px;
+    height: 250px;
     margin: 20px;
     padding: 20px;
     background-color: #ffff;
@@ -70,14 +70,18 @@ body {
     border-radius: 20px;
 }
 
+.change {
+  font-size: 12px;
+}
+
 .payment-method {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 350px;
-    height: 300px;
+    height: 250px;
     margin: 20px;
-    padding: 20px;
+    padding: 40px;
     background-color: #ffff;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -85,57 +89,24 @@ body {
     cursor: pointer;
     border-radius: 20px;
 }
+
+.form-check{
+  text-align: left;
+}
   
-.checkbox-container {
-    position: relative;
-    display: inline-block;
-    margin-right: 10px;
-    cursor: pointer;
-  }
-  
-  .checkbox-container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-  }
-  
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    border: 2px solid #000;
-  }
-  
-  .checkbox-container:hover .checkmark {
-    background-color: #ccc;
-  }
-  
-  .checkbox-container input:checked ~ .checkmark {
-    background-color: #000;
-  }
-  
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  
-  .checkbox-container input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  .checkbox-container .checkmark:after {
-    left: 6px;
-    top: 2px;
-    width: 5px;
-    height: 10px;
-    border: solid #fff;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
-  }
-  
-  .payment-label {
+.payment-label {
     margin-left: -65px;
-  }
+}
+
+.btn {
+  background-color: #ECD9CB;
+  border-radius: 20px;
+  font-weight: 700;
+  padding: 7px 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.btn:hover {
+  background-color: #ECD9CB;
+  border-radius: 20px;
+}
