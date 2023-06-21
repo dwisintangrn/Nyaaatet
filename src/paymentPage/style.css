@@ -13,7 +13,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
+    padding: 5px;
     background-color: #AB8970;
     height: 85%;
     width: 100%;
@@ -30,8 +30,8 @@ body {
     font-weight: 700;
 }
 
-.content h3{
-  font-weight: 700;
+.content h5 {
+  font-weight: 600;
 }
 
 .content i{
@@ -59,8 +59,9 @@ body {
     justify-content: center;
     align-items: center;
     width: 250px;
-    height: 250px;
+    height: 200px;
     margin: 20px;
+    margin-top: 15px;
     padding: 20px;
     background-color: #ffff;
     border-radius: 4px;
@@ -68,6 +69,29 @@ body {
     transition: transform 0.3s ease;
     cursor: pointer;
     border-radius: 20px;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.sub1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.sub2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
 }
 
 .change {
@@ -79,8 +103,9 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 350px;
-    height: 250px;
+    height: 200px;
     margin: 20px;
+    margin-top: 15px;
     padding: 40px;
     background-color: #ffff;
     border-radius: 4px;
