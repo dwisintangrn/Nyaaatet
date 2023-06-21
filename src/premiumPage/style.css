@@ -25,6 +25,14 @@ body {
     color: black;
 }
 
+.content i{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 2rem;
+    color: #ffffff;
+  }
+
 .content h2 {
     margin-bottom: 20px;
 } 
@@ -56,6 +64,10 @@ body {
 .plan:hover {
     transform: translateY(-5px);
 }
+
+/* .plan a{
+    color: black;
+} */
 
 .btn {
     background-color: #ECD9CB;
