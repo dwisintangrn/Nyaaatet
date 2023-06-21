@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nyaaatet</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nyaaatet</title>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function addCheckbox() {
+      const checkboxContainer = document.getElementById('checkbox-container');
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkboxContainer.appendChild(checkbox);
+    }
+
+    function enableTextMode() {
+      const checkboxContainer = document.getElementById('checkbox-container');
+      checkboxContainer.innerHTML = '';
+    }
+  </script>
 </head>
 <body>
-    
+  <header class="header">
+    <h2>Nyaaatet</h2>
+  </header>
+
+  <div class="container">
+    <div class="navbar">
+      <ul>
+        <li><a href="#"><button>Your Notes</button></a></li>
+        <li><a href="#"><button>Premium</button></a></li>
+        <li><a href="#"><button>Label 1</button></a></li>
+        <li><a href="#"><button>Label 2</button></a></li>
+        <li><a href="#"><button>Label 3</button></a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <div class="workspace">
+        <div class="tools">
+          <button class="tool-button" onclick="enableTextMode()">Text</button>
+          <button class="tool-button" onclick="addCheckbox()">Checkbox</button>
+          <button class="tool-button">Sticker</button>
+          <button class="tool-button">Font</button>
+          <button class="tool-button">Template</button>  
+        </div>
+      </div>
+
+      <input type="text" class="title-input" placeholder="Title">
+      <br>
+      <div id="checkbox-container"></div>
+      <textarea rows="25" cols="50"></textarea>
+      <button class="tool-button save-button">Save</button>
+    </div>
+  </div>
 </body>
 </html>
+
