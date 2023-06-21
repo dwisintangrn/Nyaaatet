@@ -36,10 +36,17 @@ h1{
     position: absolute;
 }
 #image1{
-    bottom: 0;
+    /* bottom: 0;
     left: 0;
-    opacity: 0.5;
+    opacity: 0.5; */
+    position: absolute;
+    top: -340px;
+    left: 254px;
+    right: -10px;
+    bottom: -10px;
+    object-fit: contain;
 }
+
 #image2{
     top: 0;
     right: 0;
