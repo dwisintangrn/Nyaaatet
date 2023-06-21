@@ -18,26 +18,20 @@
     width: 100%;
 }
 
-form{
+.container-1{
+    background: #E2DDD7;
+    width: 500px;
+    height: 500px;
+    justify-content: end;
+    padding-top: 50px;
+    border-radius: 30px;
+    /* right: 69.81px;
+    top: 67.13px; */
+}
+
+.form-container{
     position: relative;
 }
-
-/* form{
-    background-image: url('data:image/svg+xml, <svg width="944" height="982" viewBox="0 0 944 982" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.38269" y="0.127369" width="943.266" height="981.403" rx="81.8954" fill="#E2DDD7"/></svg>');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-}
-
-.card-header{
-    text-align: center;
-    background: #E3DED8;
-}
-
-.card-body{
-    background: #E3DED8;
-} */
 
 
 .btn {
