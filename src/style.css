@@ -4,11 +4,27 @@
     font-family: 'Poppins';
 }
 
-h5{
+.modal-header h5{
     text-align: center;
 }
 
 .modal-dialog{
     height: 50%;
     text-align: center;
+    border-radius: 20px;
+}
+
+.modal-content{
+    background-color: #E9E9E9;
+}
+
+.list-group{
+    border-radius: 0px;
+}
+
+.list-group-item{
+    background-color: #E9E9E9;
+    border: none;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
