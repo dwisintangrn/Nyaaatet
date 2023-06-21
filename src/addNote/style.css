@@ -1,55 +1,107 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins';
-}
-
 body {
-  font-family: 'Poppins', Arial, sans-serif;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F6E3DF;
+  font-family: 'Poppins';
 }
 
-.header {
-  background-color: #f2f2f2;
-  height: 40px;
-}
-
-.container {
-  display: flex;
-}
-
-.navbar {
+.sidebar {
+  width: 250px;
   background-color: #D4B3A0;
   padding: 20px;
+  box-sizing: border-box;
   height: 100vh;
-  width: 200px;
+  float: left;
 }
 
-.navbar ul {
-  list-style-type: none;
-  padding: 0;
+.sidebar-header h1 {
   margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.navbar li {
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidebar-menu li.active {
+  font-weight: bold;
+}
+
+.sidebar-item {
+  background-color: #D9D9D9;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.label-list li{
+  background-color: #fefbfb;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 30px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #F6E3DF;
+  overflow: auto;
+}
+
+.content-header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
-.navbar a {
-  text-decoration: none;
-  color: #000;
+.content-body {
+  line-height: 1.6;
 }
 
-.navbar button {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #D9D9D9;
-  width: 100%;
+  ;
   padding: 10px;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar input {
+  margin-left: 1000px;
+  padding: 5px;
   border-radius: 20px;
   border: none;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
+  width: 250px;
+  font-size: medium;
+}
+
+.profile-icon img {
+  width: 40px;
+  margin-right: 25px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .content {
@@ -65,6 +117,10 @@ textarea {
   background-color: #fff;
   resize: none;
   width: 100%;
+  border: none;
+  font-size: medium;
+  padding: 8px;
+  font-weight: bold;
 }
 
 .workspace {
@@ -82,21 +138,27 @@ textarea {
 .tool-button {
   background-color: #e2e2e2;
   border: none;
-  padding: 10px 15px;
   border-radius: 4px;
   cursor: pointer;
   font-family: 'Poppins', Arial, sans-serif;
   font-weight: 500;
   font-size: 14px;
+  width: 100px;
 }
 
 .text-input {
   margin-right: 10px;
   padding: 5px;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .save-button {
   margin-top: 20px;
-  align-self: flex-start;
+  align-self: flex-end;
+  background-color: #ECD9CB;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 100px;
 }
