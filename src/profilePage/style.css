@@ -80,7 +80,7 @@
 }
 
 body{
-    margin-top:20px;
+    margin-top:0;
     background: #fff;;
 }
 /**
@@ -120,6 +120,7 @@ form label {
 
 .form-horizontal {
     margin-left: 250px;
+    margin-top: 340px;
 }
 
 .form-horizontal .form-group {
@@ -135,17 +136,8 @@ form label {
   }
 }
 
-.profile__contact-info-icon {
-    float: left;
-    font-size: 18px;
-    color: #999999;
-}
-.profile__contact-info-body {
-    overflow: hidden;
-    padding-left: 20px;
-    color: #999999;
-}
 .profile-avatar {
+  position: absolute;
   width: 100%;
   object-fit: contain;
   position: absolute;
@@ -154,11 +146,19 @@ form label {
 }
 
 .profile-pic {
-    position: relative;
+    position: absolute;
     width: 200px;
     margin-top: 170px;
-    margin-left: 80px;
+    margin-left: 140px;
     border: 15px solid #fff;
+}
+
+i{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 2rem;
+    color: #ffffff;
 }
 
 .btn {
