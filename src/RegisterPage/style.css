@@ -20,17 +20,18 @@
 
 .container-1{
     background: #E2DDD7;
-    width: 500px;
-    height: 500px;
+    height: 100%;
+    width: 50%;
     justify-content: end;
     padding-top: 50px;
-    border-radius: 30px;
-    /* right: 69.81px;
-    top: 67.13px; */
+    border-radius: 18px;
+    margin-left: 285px;
 }
 
-.form-container{
-    position: relative;
+.form-container h3{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 
