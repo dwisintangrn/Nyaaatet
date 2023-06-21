@@ -18,13 +18,19 @@
     width: 100%;
 }
 
-.card-header{
-    text-align: center;
-    background: #E3DED8;
+.container-1{
+    background: #E2DDD7;
+    width: 500px;
+    height: 500px;
+    justify-content: end;
+    padding-top: 50px;
+    border-radius: 30px;
+    /* right: 69.81px;
+    top: 67.13px; */
 }
 
-.card-body{
-    background: #E3DED8;
+.form-container{
+    position: relative;
 }
 
 
