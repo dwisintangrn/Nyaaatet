@@ -19,6 +19,24 @@
       const checkboxContainer = document.getElementById('checkbox-container');
       checkboxContainer.innerHTML = '';
     }
+
+    function openPopup() {
+        const popup = document.getElementById("template-popup");
+        popup.style.display = "block";
+    }
+
+    function closePopup() {
+        const popup = document.getElementById("template-popup");
+        popup.style.display = "none";
+    }
+
+    // Menambahkan event listener untuk menutup popup saat mengklik di luar area popup
+    window.addEventListener("click", function (event) {
+        const popup = document.getElementById("template-popup");
+        if (event.target === popup) {
+            closePopup();
+        }
+    });
   </script>
 </head>
 <body>
@@ -77,7 +95,7 @@
           <button class="tool-button" onclick="addCheckbox()">Checkbox</button>
           <button class="tool-button">Sticker</button>
           <button class="tool-button">Font</button>
-          <button class="tool-button">Template</button>  
+          <button class="tool-button" onclick="openPopup()">Template</button>  
         </div>
       </div>
       <label>Title : </label>
@@ -88,6 +106,25 @@
       <textarea rows="25" cols="50"></textarea>
       <a href="../workspace/workspace.html" class="tool-button save-button" style="text-decoration: none; color: black;">Save</a>
       <!-- <button class="tool-button save-button">Save</button> -->
+    </div>
+
+    <div id="template-popup" class="popup-overlay">
+        <div class="popup-content">
+            <span class="popup-close" onclick="closePopup()">&times;</span>
+            <div class="template-grid">
+                <img class="template-image" src="assetTemplate/template-1.jpg" alt="Template 1">
+                <img class="template-image" src="assetTemplate/template-2.jpg" alt="Template 2">
+                <img class="template-image" src="assetTemplate/template-3.jpg" alt="Template 3">
+                <img class="template-image" src="assetTemplate/template-3.jpg" alt="Template 4">
+                <img class="template-image" src="assetTemplate/template-4.jpg" alt="Template 5">
+                <img class="template-image" src="assetTemplate/template-5.jpg" alt="Template 6">
+                <img class="template-image" src="assetTemplate/template-6.jpg" alt="Template 7">
+                <img class="template-image" src="assetTemplate/template-8.jpg" alt="Template 8">
+                <img class="template-image" src="assetTemplate/template-9.jpg" alt="Template 9">
+                <img class="template-image" src="assetTemplate/template-10.jpg" alt="Template 10">
+                <img class="template-image" src="assetTemplate/template-11.jpg" alt="Template 11">
+            </div>
+        </div>
     </div>
   </div>
 </body>
