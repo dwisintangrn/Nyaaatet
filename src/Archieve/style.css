@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #F6E3DF;
     font-family: 'Poppins';
+    overflow: hidden;
 }
 
 .sidebar {
@@ -114,7 +115,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    height: 700px;
+    height: 400px;
 }
 
 .card {

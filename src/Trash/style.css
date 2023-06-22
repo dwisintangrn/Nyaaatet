@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #F6E3DF;
     font-family: 'Poppins';
+    overflow: hidden;
 }
 
 .sidebar {
@@ -78,7 +79,6 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #D9D9D9;
-    ;
     padding: 10px;
 }
 
