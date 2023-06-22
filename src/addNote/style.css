@@ -4,6 +4,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #F6E3DF;
   font-family: 'Poppins';
+  overflow: hidden;
 }
 
 .sidebar {
