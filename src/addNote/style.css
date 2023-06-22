@@ -78,7 +78,6 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #D9D9D9;
-  ;
   padding: 10px;
 }
 
@@ -140,7 +139,7 @@ textarea {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: 'Poppins';
   font-weight: 500;
   font-size: 14px;
   width: 100px;
@@ -206,6 +205,18 @@ textarea {
 }
 
 .template-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.sticker-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.sticker-image {
   width: 100px;
   height: 100px;
   margin-bottom: 20px;

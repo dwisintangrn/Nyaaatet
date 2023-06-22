@@ -31,6 +31,16 @@
         popup.style.display = "none";
     }
 
+    function openStickerPopup() {
+      const stickerPopup = document.getElementById("sticker-popup");
+      stickerPopup.style.display = "block";
+    }
+
+    function closeStickerPopup() {
+      const stickerPopup = document.getElementById("sticker-popup");
+      stickerPopup.style.display = "none";
+    }
+
     function openModal() {
       var myModal = new bootstrap.Modal(document.getElementById('fontModal'));
       myModal.show();
@@ -42,6 +52,13 @@
         if (event.target === popup) {
             closePopup();
         }
+    });
+
+    window.addEventListener("click", function (event) {
+      const stickerPopup = document.getElementById("sticker-popup");
+      if (event.target === stickerPopup) {
+        closeStickerPopup();
+      }
     });
   </script>
 </head>
@@ -68,7 +85,7 @@
       </div>
   </a>
   <br>
-  <a href="../Archieve/archieve.html" type="button" class="btn" id="btn1" style="text-decoration: none; color: black;"">
+  <a href="../Archieve/archieve.html" type="button" class="btn" id="btn1" style="text-decoration: none; color: black;">
       <div class="sidebar-item">
           <i class="fas fa-archive"></i>
           <span>Archive</span>
@@ -99,7 +116,7 @@
         <div class="tools">
           <button class="tool-button" onclick="enableTextMode()">Text</button>
           <button class="tool-button" onclick="addCheckbox()">Checkbox</button>
-          <button class="tool-button">Sticker</button>
+          <button class="tool-button" onclick="openStickerPopup()">Sticker</button>
           <button type="button" class="tool-button" data-bs-toggle="modal" data-bs-target="#fontModal">Font</button>
           <button class="tool-button" onclick="openPopup()">Template</button>  
         </div>
@@ -132,6 +149,27 @@
             </div>
         </div>
     </div>
+
+    <div id="sticker-popup" class="popup-overlay">
+      <div class="popup-content">
+        <span class="popup-close" onclick="closeStickerPopup()">&times;</span>
+        <div class="sticker-grid">
+          <img class="sticker-image" src="assetSticker/Sticker-1.svg" alt="Sticker 1">
+          <img class="sticker-image" src="assetSticker/Sticker-2.svg" alt="Sticker 2">
+          <img class="sticker-image" src="assetSticker/Sticker-3.svg" alt="Sticker 3">
+          <img class="sticker-image" src="assetSticker/Sticker-4.svg" alt="Sticker 4">
+          <img class="sticker-image" src="assetSticker/Sticker-5.svg" alt="Sticker 5">
+          <img class="sticker-image" src="assetSticker/Sticker-6.svg" alt="Sticker 6">
+          <img class="sticker-image" src="assetSticker/Sticker-7.svg" alt="Sticker 7">
+          <img class="sticker-image" src="assetSticker/Sticker-8.svg" alt="Sticker 8">
+          <img class="sticker-image" src="assetSticker/Sticker-9.svg" alt="Sticker 9">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
 
   <div class="modal fade" id="fontModal" tabindex="-1" aria-labelledby="fontModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-sm" style="height: 50%; text-align: center; margin-top: 15%;">
