@@ -210,3 +210,31 @@ textarea {
   height: 100px;
   margin-bottom: 20px;
 }
+
+.modal-header h5{
+  text-align: center;
+}
+
+.modal-dialog{
+  height: 50%;
+  text-align: center;
+  margin-top: 15%;
+  overflow-y: hidden;
+}
+
+.modal-content{
+  background-color: #E9E9E9;
+  max-height: none;
+  overflow: hidden;
+}
+
+.list-group{
+  border-radius: 0px;
+}
+
+.list-group-item{
+  background-color: #E9E9E9;
+  border: none;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
