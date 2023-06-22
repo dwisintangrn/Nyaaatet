@@ -211,6 +211,18 @@ textarea {
   margin-bottom: 20px;
 }
 
+.sticker-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.sticker-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
 .modal-header h5{
   text-align: center;
 }
