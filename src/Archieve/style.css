@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #F6E3DF;
     font-family: 'Poppins';
+    overflow: hidden;
 }
 
 .sidebar {
@@ -58,7 +59,7 @@ body {
     box-sizing: border-box;
     height: 100vh;
     background-color: #F6E3DF;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .content-header h2 {
@@ -114,7 +115,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    height: 700px;
+    height: 400px;
 }
 
 .card {
@@ -154,10 +155,10 @@ body {
     object-fit: cover;
 }
 
-/* .card-container-scroll {
+.card-container-scroll {
     overflow-y: auto;
     max-height: 400px;
-} */
+}
 
 .card-container {
     display: flex;
