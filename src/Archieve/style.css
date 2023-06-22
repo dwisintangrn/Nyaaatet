@@ -111,14 +111,10 @@ body {
 }
 
 .card-container-1 {
-    /* display: flex; */
-    /* flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 20px;
-    height: 700px; */
-    text-align: center;
-    font-weight: 500;
-    justify-content: center;
-    align-items: center;
+    height: 400px;
 }
 
 .card {
