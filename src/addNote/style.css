@@ -52,7 +52,7 @@ body {
   text-align: center;
 }
 
-.main-content {
+.content {
   margin-left: 250px;
   padding: 20px;
   box-sizing: border-box;
@@ -161,6 +161,8 @@ textarea {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   width: 100px;
   text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 .popup-close {
