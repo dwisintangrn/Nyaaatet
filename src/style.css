@@ -167,7 +167,7 @@ textarea {
     text-align: center;
 }
 
-.modal-dialog{
+/* .modal-dialog{
     height: 50%;
     text-align: center;
     margin-top: 15%;
@@ -179,11 +179,11 @@ textarea {
 
 .list-group{
     border-radius: 0px;
-}
+} */
 
-.list-group-item{
-    background-color: #E9E9E9;
-    border: none;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-}
+/* .list-group-item{
+  background-color: #E9E9E9;
+  border: none;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+} */
