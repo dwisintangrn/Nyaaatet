@@ -249,3 +249,8 @@ textarea {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
 }
+
+.btn1{
+  text-decoration: none;
+  color: black;
+}
