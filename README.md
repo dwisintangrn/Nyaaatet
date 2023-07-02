@@ -1,27 +1,11 @@
 <!-- TITLE -->
 <h2 align="center">Nyaaatet</h2>
 
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#About-the-project">About The Project</a>
-      <ul>
-        <li><a href="#Feature">Feature</a></li>
-        <li><a href="#Built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-        <a href="#Acknowledgement">Acknowledgement</a>
-    </li>
-  </ol>
-</details>
-
 ## About The Project
 
 Aplikasi Organisasi Catatan Berbasis Web yang dibuat untuk memenuhi tugas akhir mata kuliah Rekayasa Perangkat Lunak Program Studi Informatika Universitas Sebelas Maret Surakarta.
 
-### Feature
+## Feature
 
 Fitur yang dibuat
 
@@ -29,7 +13,7 @@ Fitur yang dibuat
 - Fitur Menulis Catatan, Mengedit Catatan, Menghapus Catatan
 - Fitur Upgrade Premium 
 
-### Built-with
+## Built-with
 
 Projek ini dibuat dengan
 
