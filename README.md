@@ -10,16 +10,17 @@ Aplikasi Organisasi Catatan Berbasis Web yang dibuat untuk memenuhi tugas akhir 
 Fitur yang dibuat
 
 - Fitur Register, Login
-- Fitur Menulis Catatan, Mengedit Catatan, Menghapus Catatan
-- Fitur Upgrade Premium 
+- Fitur Pencarian catatan, Menulis Catatan, Mengedit Catatan, Menghapus Catatan, menyematkan catatan
+- Fitur Upgrade Premium
+- Fitur estetika (template, font, stiker) 
 
 ## Built-with
 
-Projek ini dibuat dengan
+Projek ini dibuat dengan menggunakan
 
-- [HTML](https://www.python.org/downloads/)
-- [CSS](https://docs.python.org/3/library/tkinter.html)
-- [JavaScript](https://docs.python.org/3/library/tkinter.html)
+- [HTML](https://www.w3.org/html/)
+- [CSS](https://www.w3.org/Style/CSS/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Acknowledgement
 
